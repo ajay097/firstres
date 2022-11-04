@@ -7,12 +7,12 @@
 git clone https://gitlab.int.iptor.com/iptor-cloud/iptor-platform.git
 ```
 
-### Now change the directory -
+### Change the directory -
 ```bash
 cd iptor-platform
 ```
 
-### Now run the ansible playbook
+### Run the ansible playbook
 
 ```bash
 ansible-playbook bacula-restore.yaml
@@ -20,35 +20,20 @@ ansible-playbook bacula-restore.yaml
 
 > :point_right: **there are some default parameter that are common for all the clients for restore** 
 
-### Now you setup the below code in directory -
+### Setup the below code in directory -
 
 ```bash
-vi ansible/roles/bacula-restore/tasks/backup-bacula.yml
+vi ansible/roles/bacula-restore/defults/main.yml
 ```
-
+### Set the default parameter in the above file-
 ``` yaml
 ---
-- name: restoring the job to the other client
-  shell: |
-    cd /etc/bacula
-    bconsole -c bconsole.conf <<END_OF_DATA
-    @output /dev/null
-    @output /var/log/bacula/{{ bacula_client_name }}-restore-{{ restore_client }}-log.out
-    restore jobid={{ jobid }} client={{ bacula_client_name }} restoreclient={{ restore_client }} fileset=FileSet{{ bacula_client_name }} restorejob=RestoreBackup{{ bacula_client_name }} all done yes
-    messages
-    @output
-    END_OF_DATA
-```
-### Now include backup-bacula.yml in tasks/main.yml
-```bash
-vi ansible/roles/bacula-restore/tasks/main.yml
+bacula_client: ipt-fr-cpanel-01-fd
+bacula_client_name: CPANEL01
+restore_client: ipt-fr-cpanel-01-fd
+jobid: 1441
 ```
 
-```yml
----
-- name: rendering on backup-bacula.yml
-  include_tasks: backup-bacula.yml
-  ```
  ### Now run the ansible-playbook -
  ```bash
  ansible-playbook bacula-restore.yaml

@@ -1,4 +1,4 @@
-### bacula-server-configuration -
+## bacula-server-configuration -
 
 
 ### Clone Iptor-platform repo -
@@ -6,7 +6,7 @@
 git clone https://gitlab.int.iptor.com/iptor-cloud/iptor-platform.git
 ```
 
-##### Go to the repo directory - 
+### Go to the repo directory - 
 ```bash
  cd iptor-platform/
 ```

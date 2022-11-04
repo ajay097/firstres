@@ -20,7 +20,7 @@ ansible-playbook bacula-restore.yaml
 
 > :point_right: **there are some default parameter that are common for all the clients for restore** 
 
-### Setup the below code in directory -
+### Setup the below client-information in directory -
 
 ```bash
 vi ansible/roles/bacula-restore/defults/main.yml

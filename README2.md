@@ -8,8 +8,17 @@ git clone https://gitlab.int.iptor.com/iptor-cloud/iptor-platform.git
 
 ##### Go to the repo directory - 
 ```bash
- cd iptor-platform/ 
+ cd iptor-platform/
 ```
+
+### Now run the ansible playbook
+
+```bash
+ansible-playbook bacula-server configuration.yaml
+```
+
+### If you want to add new node/client then follow below steps -
+
 ### Now add new client with basic requirements -
 
 ```bash
@@ -50,4 +59,4 @@ cd /etc/bacula/conf.d
 ### now see the client -
 ```bash
  ls -l
- ```# firstres
+ ```

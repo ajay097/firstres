@@ -17,7 +17,10 @@ git clone https://gitlab.int.iptor.com/iptor-cloud/iptor-platform.git
 ansible-playbook bacula-server configuration.yaml
 ```
 
-### If you want to add new node/client then follow below steps -
+### Add new node/client then follow below steps -
+
+
+> :point_right: **there are some default parameter that are common for all the clients**
 
 ### Now add new client with basic requirements -
 
@@ -42,7 +45,6 @@ BACULA_CLIENTS:
     incremental_backup_schedule: "Incremental mon-sat at 02:35"
     backup_forcefully: false
 ```
-> :point_right: **there are some default parameter that are common for all the clients**
 
 
 ### Run the ansible-playbook -

@@ -1,55 +1,38 @@
 ## Document for restore-backup for disaster recovery ------
 
 ### First took the full-backup of cleint for restore---
-### To took the backup run the command----
+### To create  the backup run the command----
 ```bash
-run
-```
-### Check the cleint status----
-```bash
-st dir
+run           # It shows all the cleint
+
+16           # Choose the cleint according the number
+             # It shows 3 optins yes/mod/no
+yes          # Choose the yes parameter for full backup otherwise mod for modify the backup
+ 
+St dir       # Check the cleint status 
+             # It take some time for took full-backup
 ```
 
-### After completing the full backup took the restore-backup----
+## After completing the full backup took the restore-backup----
 ```bash
-restore
-```
+restore       # It shows all the default parameter for restore
+5             # Choose the 5-one,it is for recent full-backup
 
-### Select the parameter for full backup---
-### 5 is the default parameter for recent-full backup---
-```bash
-5
-```
-### Select the cleint for restore----
-### It shows a number for selecting the cleint---
-```bash
-sftp01 or 16
-```
-### Then select the cleint for restoring mentioned cleint---
-### We select different cleint for restoring the selcet cleint----
-```bash
-18 or disas01
-```
-### Then modify the parameters before yes---
-### It shows 3 option yes/mod/no for restore---
-```bash
-mod
-```
+              # After this it shows all the recent full-backup client
+16            # Choose the cleint according then number for restore
 
-### Select the where parameter to restore the cleint---
-```bash
-where
-```
+mark *        # It select all the files from cleint
 
-### After this enter yes for restoring---
-```bash
-yes
-```
+done          
 
-### starting the restoring cleint--
-### Check the cleint status---
-```bash
-st dir
+             # After done, it shows again all cleint for restore-backup cleint
+18           # We choose different cleint for restore the client for disaster recovery
+mod          # After this select mod option 
+where        # in this define the path for restore-cleint
+yes          # It start the restore 
+st dir       # check the restore status 
+             # it takes few minutes for completing the restore 
+                     
 ```
 
 

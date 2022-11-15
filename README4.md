@@ -21,7 +21,7 @@ restore             # It shows all the default parameter for restore
 5                   # Choose the 5-one,it is for recent full-backup
 
                      # After this it shows all the recent full-backup client
-(Selcet client)      # Choose the client according then number for restore
+(Select client)      # Choose the client according then number for restore
 
 mark *               # It select all the files from client
 

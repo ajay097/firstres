@@ -1,6 +1,6 @@
 ## Document for restore-backup for disaster recovery ------
 
-### First took the full-backup of cleint for restore---
+### First take the full-backup of cleint for restore---
 ### To create  the backup run the command----
 ```bash
 run           # It shows all the cleint

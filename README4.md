@@ -13,7 +13,7 @@ St dir       # Check the cleint status
              # It take some time for took full-backup
 ```
 
-## After completing the full backup took the restore-backup----
+## After completing the full backup take the restore-backup----
 ```bash
 restore       # It shows all the default parameter for restore
 5             # Choose the 5-one,it is for recent full-backup

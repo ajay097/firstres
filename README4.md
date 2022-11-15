@@ -1,11 +1,11 @@
 ## Document for restore-backup for disaster recovery 
 
-### First take the full-backup of client for restore
+### full-backup of client for restore
 ### To create  the backup run the command
 ```bash
 run                  # It shows all the cleint
 
-(select cleint)      # Choose the cleint according the number
+(select client)      # Choose the cleint according the number
                      # It shows 3 optins yes/mod/no
 mod                  # For incremental backup 
 1                   # choes level one
@@ -15,7 +15,7 @@ yes                # Choose the yes parameter for full backup otherwise mod for 
                   # It take some time for took full-backup
 ```
 
-## After completing the full backup take the restore-backup
+## Restore bacula-client
 ```bash
 restore             # It shows all the default parameter for restore
 5                   # Choose the 5-one,it is for recent full-backup

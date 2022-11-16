@@ -13,7 +13,7 @@ apt install ansible
 ```bash
 cd /opt/ansible
 
-git clone -b bacula-server-installation https://inravpra:glpat-1x7bCc6ysAZyvx6miN5k@gitlab.int.iptor.com/iptor-cloud/iptor-platform.git
+git clone https://gitlab.int.iptor.com/iptor-cloud/iptor-platform.git
 ```
 ### After this in vm install bacula
 #### first change the directory
@@ -51,28 +51,12 @@ sftp01:
 ### Run the ansible-playbook -
 ```bash
 ansible-palybook bacula-server-configruation.yaml
-```
-
-### After this in bacula conf. file add device with defaults parameter
-```yaml
----
-Device {
-  Name = TS-K601
-  Drive Index = 0
-  Media Type = TS-3100
-  Archive Device = /dev/st3
-  AutomaticMount = yes
-  Autochanger = no
-  Always Open = no
-  RemovableMedia = yes
-  LabelMedia = yes
-}
 ``` 
-### Check the cleint in machine
+### Check the client in machine
 ``bash
-cd /etc/bacula/conf.d/
+bconsole
 ```
 ```bash
-ls -l
+st client
 ```
 

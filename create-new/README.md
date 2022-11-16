@@ -34,7 +34,7 @@ vi ansible/roles/bacula-server-configuration/defaults/main.yaml
 ```yaml
 ---
 sftp01:
-    name: sftp01
+    name: sftp01                                                                   
     bacula_client: ipt-fr-sftp-01-fd
     bacula_client_server_name: sftp01
     bacula_fd_port: 9102
@@ -53,7 +53,7 @@ sftp01:
 ansible-palybook bacula-server-configruation.yaml
 ``` 
 ### Check the client in machine
-``bash
+```bash
 bconsole
 ```
 ```bash

@@ -1,22 +1,17 @@
 
-This is manually for restore
-
 ## Manually Restore a client by bacula-backup 
-
 ### First take the full backup of client for restore
-
-### After this start the restore of client
+#### After this start the restore of client
 ```bash
 restore
 ```
-
 ### It shows all the default parameter for restore
-### Choose the 5-one,it is for recent full-backup
+#### Choose the 5-one,it is for recent full-backup
 ```bash             
 5                 
 ```
 ### After this it shows all the recent of full-backup client
-### Choose the client according the number for restore                    
+#### Choose the client according the number for restore                    
 ```bash
 (Select client)      
 ```
@@ -29,7 +24,7 @@ mark *
 done          
 ```
 ### Again it shows all client for restore-client
-### We choose different client for restore the client for disaster recovery 
+#### We choose different client for restore the client for disaster recovery 
 ```bash
 (Choose client) 
 ```  
@@ -54,10 +49,9 @@ mod
 yes 
 ```   
 ### check the restore status 
-### it takes few minutes for completing the restore 
+#### it takes few minutes for completing the restore 
 ```bash          
 st dir              
 ```             
                      
-
 

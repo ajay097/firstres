@@ -4,8 +4,7 @@
 #### It shows all vtljobs which are already present 
 
 #### After this choose add VTl bar which is present in the centre-of-the-bottom 
-                           ![ssfor_vtl](https://user-images.githubusercontent.com/114208834/202695230-9009a509-1a8f-4e95-b599-a1f12b0756af.png)
-
+                           ![ssfor_vtl](https://user-images.githubusercontent.com/114208834/202696259-b6507174-8821-4860-8773-420c957a5e22.png)
 #### When you add vtl after this choose some deafults parameters according to the node
 
 ![ssforvtl2](https://user-images.githubusercontent.com/114208834/202695941-9295b8fb-01f9-4737-8104-18811b10127d.png)

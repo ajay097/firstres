@@ -19,4 +19,4 @@ details
 #### At the bottom of all drive present the recent drive
 
 
-![image info](Pictures/ssfor_vtl.png)
+![image info](/home/mithilesh/Pictures/ssfor_vtl.png)

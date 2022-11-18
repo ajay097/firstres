@@ -19,4 +19,5 @@ details
 #### At the bottom of all drive present the recent drive
 
 
-![image info](file://ssfor_vtl.png)
+![image info](./Pictures/ssfor_vtl.png)
+<img src="/Pictures/ssfor_vtl.png"

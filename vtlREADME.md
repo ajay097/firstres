@@ -20,4 +20,5 @@ details
 
 
 ![image info](./Pictures/ssfor_vtl.png)
-<img src="/Pictures/ssfor_vtl.png"
+![ssfor_vtl](https://user-images.githubusercontent.com/114208834/202693939-2e41762e-6afc-41a1-8edf-cf383e4011e6.png)
+

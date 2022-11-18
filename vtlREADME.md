@@ -1,24 +1,25 @@
 ### Create VTL library 
-#### First you need the nodes for create VTl 
+#### First login with ssh-key ('10.206.0.16') in browser
 
-#### After this go in VTL and choose add VTl bar which is present in the centre-of-the-bottom 
-```bash
-add vtl
-```
+#### It shows all vtljobs which are already present 
+
+#### After this choose add VTl bar which is present in the centre-of-the-bottom 
+                           ![ssfor_vtl](https://user-images.githubusercontent.com/114208834/202695230-9009a509-1a8f-4e95-b599-a1f12b0756af.png)
+
 #### When you add vtl after this choose some deafults parameters according to the node
-```bash
-vtl name
-Number of VDrives
-VDrive Type
-```
+
+![ssforvtl2](https://user-images.githubusercontent.com/114208834/202695941-9295b8fb-01f9-4737-8104-18811b10127d.png)
+
+
 #### After this submit the details
-```bash
-details
-```
+
+![ssforvtl3](https://user-images.githubusercontent.com/114208834/202696047-0186d64e-d903-4efa-90d1-985635c5ac90.png)
+
+
 #### Refresh the vtl page and see the vtl-drive
+
+![ssforvtl4](https://user-images.githubusercontent.com/114208834/202696111-9ef1ac23-7d04-4899-a881-68e84c0003ba.png)
+
 #### At the bottom of all drive present the recent drive
 
-
-![image info](./Pictures/ssfor_vtl.png)
-![ssfor_vtl](https://user-images.githubusercontent.com/114208834/202693939-2e41762e-6afc-41a1-8edf-cf383e4011e6.png)
 
